@@ -15,6 +15,7 @@ Each flash card is displayed for 3 seconds before revealing the meaning.
 
 - Python 3.x
 - Pandas library
+- Tkinter
 
 ## How to Use
 
