@@ -15,7 +15,6 @@ else:
     word_list = df.to_dict(orient="records")
 
 
-
 def next_card():
     global flip_timer, current_card
     current_card = random.choice(word_list)
@@ -39,7 +38,6 @@ def is_known():
     next_card()
 
 
-####################################################           UI          #############################################
 window = Tk()
 window.title("Flash Card App")
 window.config(padx=50, pady=50, bg=BACKGROUND_COLOR)
